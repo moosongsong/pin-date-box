@@ -1,0 +1,9 @@
+name: "date-box"
+author: "kf-liu"
+description: "🗓 Update a pinned gist to contain your anniversaries and countdown days (or hours)"
+branding:
+  icon: "calendar"
+  color: "orange"
+runs:
+  using: "node16"
+  main: "dist/index.js"
