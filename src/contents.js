@@ -19,5 +19,7 @@ export default (records) => {
     const maxLength = newContents[newContents?.length - 1]?.absDiff?.toString()?.length || 0;
     return newContents
         ?.map((record) => getContent(record, { maxLength }))
-        ?.join('\n');
+        ?.join('\n')
+        + '\n'
+        + ENDING;
 };
