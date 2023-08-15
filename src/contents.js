@@ -1,7 +1,5 @@
 import counters from './counters';
 
-export const ENDING = '🤖 by [date-box](https://github.com/kf-liu/date-box)';
-
 const formatDiffDay = (absDiff, maxLength) => {
     let diffStr = absDiff.toString();
     while (diffStr.length < maxLength) diffStr = diffStr + ' ';
