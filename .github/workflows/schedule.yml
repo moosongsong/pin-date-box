@@ -17,4 +17,4 @@ jobs:
           TYPE: DAY
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: d98bef1e17f03519ddbf41bd6d18bf88
-          RECORDS: "2024-06-12 _ 🪖 석진 전역 | 2024-10-17 _ 🪖 호석 전역 | 2022-01-02 _ 개발자로 돈 번 기간"
+          RECORDS: "0 * * * 0,6 _ WEEKEND | 0 0 10 * * _ PAYDAY | 2024-06-12 _ 🪖 석진 전역 | 0 * 28 12 * _ MY BIRTHDAY"
